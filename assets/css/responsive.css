@@ -1,0 +1,358 @@
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+@media (min-width: 992px) {
+    .col-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-9 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .col-2 {
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+
+    .col-5 {
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    .col-8 {
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .col-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+}
+
+
+@media (max-width: 991px) {
+
+    .header+section,
+    .header+row,
+    .header+div {
+        margin-top: 71px;
+    }
+
+    .top-menu {
+        display: none;
+    }
+
+    .header .navbar {
+        background: #fff;
+    }
+
+    .navbar .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .header .navbar .logo img {
+        display: none;
+    }
+
+    .header .navbar .logo img+img {
+        display: block;
+    }
+
+    .navbar-toggler span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #faba00;
+        margin: auto;
+        margin-bottom: 4px;
+        transition: all 400ms linear;
+        cursor: pointer;
+    }
+
+    .navbar-toggler.actived span:first-child {
+        transform: rotate(-45deg);
+        position: relative;
+        top: 7.5px;
+    }
+
+    .navbar-toggler.actived span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar-toggler.actived span:last-child {
+        transform: rotate(45deg);
+        bottom: 6px;
+        position: relative;
+    }
+
+    .header .navbarcollapse {
+        flex-basis: 100%;
+        max-height: 340px;
+        overflow-y: scroll;
+        transition: all 0.5s ease;
+        height: 0;
+    }
+
+    .header .navbarcollapse.actived {
+        height: 340px;
+    }
+
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-bottom: 23px;
+    }
+
+    .nav {
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+
+    .header .navbar .nav li {
+        margin-left: 0px;
+    }
+
+    .header .navbar .nav li a {
+        color: #222;
+        line-height: 40px;
+        margin-right: 0px;
+        display: block;
+        border-bottom: 1px solid #ededed33;
+    }
+
+    .home .banner-inner {
+        padding: 100px 0px;
+        min-height: 450px;
+    }
+
+    .home .home-left,
+    .home .home-right {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .portfolio-details-inner .portfolio-right-text {
+        padding-left: 0px;
+    }
+
+    .prosmall {
+        flex: 0 0 100%;
+        max-width: 350px;
+        margin: auto;
+    }
+
+    .probig {
+        display: none;
+    }
+
+    .furniture-inner .col-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .footer-area .col-5 {
+        margin-bottom: 30px;
+    }
+
+    .news-widget {
+        padding-left: 0px;
+    }
+
+    .progress-table-wrap {
+        overflow-x: scroll;
+    }
+
+    .contact-info {
+        margin-bottom: 50px;
+    }
+
+    .gallery-item .col-4 {
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .blog-banner {
+        min-height: 450px;
+    }
+
+    .footer-area .col-5 {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .header .navbarcollapse {
+        max-height: 250px;
+    }
+
+    .header .navbarcollapse.actived {
+        height: 250px;
+    }
+
+    .home .banner-inner .row {
+        display: block;
+    }
+
+    .home .banner-inner .banner-content {
+        margin-top: 0px;
+        padding: 30px 15px;
+    }
+
+    .home .banner-inner .banner-content h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .home .banner-inner .home-left {
+        max-width: 100%;
+    }
+
+    .home .banner-inner .home-right {
+        display: none;
+    }
+
+    .home .banner-inner .home-right-box {
+        display: none;
+    }
+
+    .home-part {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .main-title h2 {
+        font-size: 25px;
+    }
+
+    .furniture-inner .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .furniture-item {
+        max-width: 360px;
+        margin: 0px auto 30px;
+    }
+
+    .section-top-border .col-4 , .section-top-border .col-6{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
+    .banner-area .banner-inner .banner-content h2 {
+        font-size: 32px;
+    }
+
+    .about-area .about-inner .col-6:nth-child(2) {
+        margin-top: 25px;
+    }
+
+    .portfolio-details-inner .portfolio-right-text {
+        padding-left: 0px;
+        padding-top: 50px;
+    }
+
+    .about-area .about-inner .col-6,
+    .portfolio-details-inner .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .element-wrap {
+        margin-top: 30px;
+    }
+
+    .blog-banner {
+        min-height: 450px;
+    }
+
+    .home .banner-inner {
+        min-height: 450px;
+    }
+
+    .blog-banner .banner-inner .container .blog-text h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    .blog-info {
+        text-align: left !important;
+        margin-bottom: 10px;
+    }
+
+    .single-post-area .navigation-area .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .single-post-area .navigation-area .nav-left {
+        margin-bottom: 30px;
+    }
+
+    .comments-area {
+        padding: 50px 8px;
+    }
+
+    .comments-area .thumb {
+        margin-right: 10px;
+    }
+
+    .comments-area .comment-list .single-comment h5 {
+        font-size: 12px;
+    }
+
+    .comments-area .comment-list .single-comment .date {
+        font-size: 11px;
+    }
+
+    .comments-area .comment-list .single-comment .comment {
+        font-size: 10px;
+    }
+
+    .comment-form .form-inline .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .comment-form .name {
+        padding-right: 0px;
+        margin-bottom: 1rem;
+    }
+
+    .comment-form .email {
+        padding-left: 0px;
+    }
+
+    .ads-widget {
+        display: block;
+    }
+
+    .contact-area .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .footer-area .col-5 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
